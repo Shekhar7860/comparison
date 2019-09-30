@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1095776392522",
+    "firebase_url": "https://modicarecomparison.firebaseio.com",
+    "project_id": "modicarecomparison",
+    "storage_bucket": "modicarecomparison.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095776392522:android:08bf8274daab14a6291db3",
+        "android_client_info": {
+          "package_name": "com.modicareproductscomparison"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095776392522-9evucf77j0s79quk4am1j5uth1jqle3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP5Z-pRJ6cL3T7mHcGwOGMGEw12ThUQsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095776392522-9evucf77j0s79quk4am1j5uth1jqle3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
