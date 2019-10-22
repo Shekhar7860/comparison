@@ -5,8 +5,8 @@ import firebase from 'react-native-firebase';
 import { InterstitialAdManager, NativeAdsManager,  BannerView, AdSettings  } from 'react-native-fbads';
 const Banner = firebase.admob.Banner;
 const AdRequest = firebase.admob.AdRequest;
-const advert2 = firebase.admob().rewarded('ca-app-pub-2457999726327943/3408444581')
-const advert = firebase.admob().interstitial('ca-app-pub-2457999726327943/5397503042')
+const advert2 = firebase.admob().rewarded('ca-app-pub-8508945282485590/4514186237')
+const advert = firebase.admob().interstitial('ca-app-pub-8508945282485590/1260023855')
 const request = new AdRequest();
 request.addKeyword('foobar');
 export default class Join extends Component {
@@ -147,7 +147,7 @@ setTimeout(() => {
        <Banner
        style={{alignSelf:'center',marginLeft:20}}
     size={"SMALL_BANNER"}
-  unitId={"ca-app-pub-2457999726327943/9719891436"}
+  unitId={"ca-app-pub-8508945282485590/9713228944"}
   request={request.build()}
   onAdLoaded={() => {
     console.log('Advert loaded');
